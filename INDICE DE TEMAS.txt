@@ -1,0 +1,168 @@
+INDICE
+
+1. TIPOS DE DATOS 
+	Declaracion de variables
+		palabra reservada "let"
+		palabra reservada "const"
+		El identificador
+			Tipos de notacion 
+	Tipos de datos
+		numeros
+		cadenas de texto
+		emojis
+		plantillas literales
+		booleanos
+		null
+		undefined
+		NaN
+		El metodo typeof
+		Objetos
+			arrays
+			funciones
+			objetos literales
+	
+	Como obtener datos del usuario
+	
+	La Consola
+		console.log
+		console.table
+		console.error
+		console.warn
+
+
+
+
+
+
+
+
+2. OPERACIONES CON DATOS
+	Operadores Aritmeticos
+	Coersion de tipos
+	Conversion de tipos de datos
+	Equivalencia de tipo de dato a booleano
+	Orden de los operadores
+	Operadores de asignacion
+	Operadores de comparacion
+	Operadores Logicos
+	Referencia y Valor
+		memoria HEAP
+
+
+
+
+
+	
+3. CONTROL DE FLUJO
+	if-else
+	Operador Ternario
+	switch-case
+	while
+	for
+	continue y break
+	scope
+	
+
+
+
+
+
+4. ARRAYS
+	El metodo "push"
+	El metodo "unshift"
+	El metodo "pop"
+	El metodo "Shift"
+	El metodo "includes"
+	El metodo "splice"
+	La propiedad "length"
+	Como recorrer los elementos de un array
+		for-of
+	Desestructurar arreglos
+	EL OPERADOR SPREAD Y REST
+		Desestructuracion con el operador "rest"
+	Metodo para eliminar elementos duplicados
+
+
+
+
+
+
+5. FUNCIONES
+	Funcion Declarativa
+		El retorno de una funcion
+		parametros por defecto
+	Funcion de expresion
+	Funcion Flecha
+	Funcion autoinvocada
+	Funciones en Objetos: metodos
+	OPERADORES REST Y SPREAD EN FUNCIONES
+	Hoisting o elevacion
+	callbacks
+		como retornar el resultado de una funcion CB al metodo que la contiene
+	
+
+
+
+
+	
+6. OBJETOS LITERALES
+	Notacion Punto
+	Notacion Corchete
+	Recorrer un objeto
+		for-in
+		object.values
+		object.keys
+		object.entries
+	CREAR OBJETOS A PARTIR DE UNA "PLANTILLA" (Instanciar o generar un ejemplar)
+	Desestructuracion de objetos
+	Crear objetos inmutables
+	Pasar objeto como parametro
+	OPERADORES REST Y SPREAD EN OBJETOS
+	COPIAR UN OBJETO
+	El objeto "window"
+		el objeto "document"
+		el objeto "math"
+		el metodo "parseInt"
+		el metodo "setTimeout"
+	La clase DATA
+		
+
+
+
+
+7. METODOS PARA ARRAYS
+	Metodo forEach
+	Metodo map
+	Metodo filter
+	Metodo sort
+	Metodo find
+	Metodo findIndex
+	Metodo Reduce
+	
+
+
+
+
+
+
+8. ASINCRONIA
+	1_ASINCRONIA CON CALLBACKS
+		manejo de errores
+		callback hell
+		
+	2_ASINCRONIA CON PROMESAS
+		USO DEL PROMISE.ALL Y PROMISE.ALLSETTLED
+		hacer dos tareas simultaneas
+		otra forma de usar promesas
+	
+	3_ASINCRONIA CON ASYNC-AWAIT
+		Manejo de excepciones
+		
+	4_FETCH
+		Expresiones Regulares
+		Que es JSON
+		Que son las "APIS"
+		API FETCH
+
+
+

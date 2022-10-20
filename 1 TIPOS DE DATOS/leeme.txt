@@ -1,0 +1,23 @@
+LEEME
+
+1) En esta carpeta ir a la pestaña 'vista' y verificar que la casilla "Extenciones de nombre de archivo" este activada
+
+2) Dar clic derecho al archivo que tiene la extension html y en "Abrir con" elegir el navegador que tenga. 
+Sugerencia: Chrome o Edge
+Una vez se ejecute el navegador que escogio, oprima F12 para desplegar la consola
+
+
+3) Una vez mas en la carpeta donde esta este documento, buscar el archivo que tiene la extension js y dando clic derecho
+ir a "Abrir con" y esta vez escojemos "Visual Studio Code"
+
+
+Listo!! cada vez que haga un cambio en el archivo de VSC vaya al navegador y refresque con F5 para ver los cambios.
+
+
+
+
+
+
+
+
+
