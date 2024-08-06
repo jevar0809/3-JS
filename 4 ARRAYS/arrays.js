@@ -449,17 +449,35 @@ console.log('EL OPERADOR SPREAD Y REST')
 //Veamos como se usa el operador spread:
 
 let arrayParaUsarSpread = [1,2,3,4]// tenemos un array con 4 elementos
-let arrayCopia = [...arrayParaUsarSpread]// en 'arrayCopia' se estan 'extendiendo' los indices del array anterior
+let arrayCopia = [...arrayParaUsarSpread]// en 'arrayCopia' se estan 'extendiendo' los indices del array anterior, en otras palabras estamos diciendo que coja lo que tiene cada indice y 
+//extiendalo en cada indice del nuevo array: lo que tiene el indice 0 coloquelo en el indice 0 del nuevo array, lo que esta en el indice 1 coloquelo en el indice 1 del nuevo array, etc...
 console.log(arrayCopia)// y en consola vemos el mismo valor
 
 
-let otroArraySpread = [5,6,7,8]
-let unionDeArrays = [...arrayParaUsarSpread, ...otroArraySpread, 9,10]// 'extendemos' los dos arrays anteriores y le ponemos otros indices
 
+//Veamos otro ejemplo, ahora tenemos 2 arrays: 'arrayParaUsarSpread' (ejemplo de arriba) y 'otroArraySpread'.  
+let otroArraySpread = [5,6,7,8]
+
+En un 3er array, 'unionDeArrays', podemos colocar el contenido de los otros arrays:
+let unionDeArrays = [...arrayParaUsarSpread, ...otroArraySpread, 9,10]// 'extendemos' los dos arrays anteriores, es como si dijeramos: 'operador spread coloque el contenido de cada indice 
+//en cada indice del nuevo array', eso hace que spread sepa cuantos indices tiene un array y como va a colocar cada uno en los otros indices del nuevo array
 console.log(unionDeArrays)//ahora vemos la union de ambos arrays y los nuevos indices 
 
 
+//Tambien podemos añadir nuevos datos: 
+ 
+const nuevoArray = [6, 7, 8]
+let dato = 5
 
+const elArrayConElDato = [dato, ...nuevoArray]//se lee: en el indice 0 coloque 'dato' y en los demas indices 'extienda' los indices que tiene 'nuevoArray'
+console.log(elArrayConElDato)
+ 
+//Tambien podemos cambiar el orden de los indices:
+const CambioDeOrden = [...nuevoArray, dato]//se lee: extienda los indices del 'nuevoArray' y en el ultimo indice coloque 'dato'
+console.log(CambioDeOrden)
+
+
+        
 
 
 
