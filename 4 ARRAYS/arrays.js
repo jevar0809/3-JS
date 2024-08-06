@@ -449,7 +449,7 @@ console.log('EL OPERADOR SPREAD Y REST')
 //Veamos como se usa el operador spread:
 
 let arrayParaUsarSpread = [1,2,3,4]// tenemos un array con 4 elementos
-let arrayCopia = [...arrayParaUsarSpread]// en 'arrayCopia' se estan 'untando' o 'extendiendo' los indices del array anterior
+let arrayCopia = [...arrayParaUsarSpread]// en 'arrayCopia' se estan 'extendiendo' los indices del array anterior
 console.log(arrayCopia)// y en consola vemos el mismo valor
 
 
