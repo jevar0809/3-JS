@@ -477,6 +477,17 @@ const CambioDeOrden = [...nuevoArray, dato]//se lee: extienda los indices del 'n
 console.log(CambioDeOrden)
 
 
+
+
+
+ /* veamos otro ejemplo interesante */
+
+ const numeros = [3,2,1]
+ const ArrayStringExtendido = [...'triangulo', ...numeros]//se lee: extienda el string 'triangulo' y el array numeros
+ console.log(ArrayStringExtendido)
+//como vemos el string se extendio en cada indice del array y se añadio otro array extendido
+
+
         
 
 
